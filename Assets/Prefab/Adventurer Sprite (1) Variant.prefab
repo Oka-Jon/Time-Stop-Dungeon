@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!61 &544409526
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7620900600761028613}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.045863524, y: 0.0071677715}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.44, y: 0.81}
+    newSize: {x: 0.44, y: 0.81}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.12404981, y: 0.2795913}
+  m_EdgeRadius: 0
+--- !u!1001 &7756966773938928020
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 172448051700378001, guid: 585ae3552ef7ced419bcef779e1f1bbe,
+        type: 3}
+      propertyPath: m_Name
+      value: Adventurer Sprite (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 172448051700378003, guid: 585ae3552ef7ced419bcef779e1f1bbe,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 172448051700378003, guid: 585ae3552ef7ced419bcef779e1f1bbe,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 27.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 172448051700378003, guid: 585ae3552ef7ced419bcef779e1f1bbe,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 172448051700378003, guid: 585ae3552ef7ced419bcef779e1f1bbe,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 172448051700378003, guid: 585ae3552ef7ced419bcef779e1f1bbe,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 172448051700378003, guid: 585ae3552ef7ced419bcef779e1f1bbe,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 172448051700378003, guid: 585ae3552ef7ced419bcef779e1f1bbe,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 172448051700378003, guid: 585ae3552ef7ced419bcef779e1f1bbe,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 172448051700378003, guid: 585ae3552ef7ced419bcef779e1f1bbe,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 172448051700378003, guid: 585ae3552ef7ced419bcef779e1f1bbe,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 172448051700378003, guid: 585ae3552ef7ced419bcef779e1f1bbe,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 172448051700378004, guid: 585ae3552ef7ced419bcef779e1f1bbe,
+        type: 3}
+      propertyPath: movePoint
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 172448051700378005, guid: 585ae3552ef7ced419bcef779e1f1bbe, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 585ae3552ef7ced419bcef779e1f1bbe, type: 3}
+--- !u!1 &7620900600761028613 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 172448051700378001, guid: 585ae3552ef7ced419bcef779e1f1bbe,
+    type: 3}
+  m_PrefabInstance: {fileID: 7756966773938928020}
+  m_PrefabAsset: {fileID: 0}
